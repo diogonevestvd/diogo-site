@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portefólio — Diogo Neves</title>
+  <meta name="description" content="Portefólio de Diogo Neves." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="mobile-topbar">
+    <a href="index.html" class="mobile-brand">DN</a>
+
+    <div class="mobile-actions">
+      <div class="mobile-lang-switcher" aria-label="Language switcher">
+        <button class="lang-pill is-active" data-lang-option="pt" type="button">PT</button>
+        <button class="lang-pill" data-lang-option="en" type="button">EN</button>
+        <button class="lang-pill" data-lang-option="es" type="button">ES</button>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu-overlay" hidden>
+    <div class="mobile-menu-panel">
+      <div class="mobile-menu-head">
+        <span class="mobile-menu-title">Diogo Neves</span>
+        <button class="menu-close" type="button" aria-label="Close menu">×</button>
+      </div>
+
+      <nav class="mobile-nav">
+        <a href="index.html" data-i18n="nav.home">Início</a>
+        <a href="experiencia.html" data-i18n="nav.experience">Experiência</a>
+        <a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a>
+        <a href="contactos.html" data-i18n="nav.contact">Contactos</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="page-shell">
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <a href="index.html" class="brand">Diogo Neves</a>
+
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button class="lang-pill is-active" data-lang-option="pt" type="button">PT</button>
+          <button class="lang-pill" data-lang-option="en" type="button">EN</button>
+          <button class="lang-pill" data-lang-option="es" type="button">ES</button>
+        </div>
+      </div>
+
+      <nav class="side-nav">
+        <a href="index.html" data-i18n="nav.home">Início</a>
+        <a href="experiencia.html" data-i18n="nav.experience">Experiência</a>
+        <a href="portfolio.html" class="active" data-i18n="nav.portfolio">Portefólio</a>
+        <a href="contactos.html" data-i18n="nav.contact">Contactos</a>
+      </nav>
+
+      <div class="sidebar-note">
+        <p data-i18n="sidebar.note">Translation · Programming · Marketing</p>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section class="inner-header liquid-panel">
+        <p class="eyebrow" data-i18n="portfolio.eyebrow">Portefólio</p>
+        <h1 data-i18n="portfolio.title">Trabalho, competências e línguas</h1>
+        <p class="lead smaller" data-i18n="portfolio.lead">
+          Uma apresentação simples das áreas que quero continuar a desenvolver e aprofundar.
+        </p>
+      </section>
+
+      <section class="card-grid card-grid--portfolio">
+        <article class="info-card liquid-panel">
+          <h2 data-i18n="portfolio.translation.title">Tradução</h2>
+          <p data-i18n="portfolio.translation.desc">Interesse em tradução especializada, revisão, adaptação linguística e produção de texto claro e natural.</p>
+
+          <div class="project-snippet">
+            <span class="project-badge" data-i18n="portfolio.translation.badge">Projeto real</span>
+            <h3 data-i18n="portfolio.translation.medTitle">Medical translations</h3>
+            <p data-i18n="portfolio.translation.medDesc">Duas traduções médicas realizadas para a EM-Movimento, de inglês para português, atualmente com publicação pendente.</p>
+          </div>
+        </article>
+
+        <article class="info-card liquid-panel">
+          <h2 data-i18n="portfolio.programming.title">Programação</h2>
+          <p data-i18n="portfolio.programming.desc">Desenvolvimento de projetos digitais com foco em estrutura, utilidade e apresentação visual cuidada.</p>
+
+          <div class="project-snippet">
+            <span class="project-badge" data-i18n="portfolio.programming.badge">Em desenvolvimento</span>
+            <h3 data-i18n="portfolio.programming.sulTitle">Sul</h3>
+            <p data-i18n="portfolio.programming.sulDesc">Aplicação de planeamento e apoio, pensada para ajudar as pessoas a definir um caminho e a chegar a um objetivo concreto.</p>
+          </div>
+        </article>
+
+        <article class="info-card liquid-panel">
+          <h2 data-i18n="portfolio.marketing.title">Marketing</h2>
+          <p data-i18n="portfolio.marketing.desc">Trabalho ligado à Bubble B Portugal, com foco em comunicação, presença visual e coerência de marca.</p>
+          <a class="text-link" href="https://www.instagram.com/bubble.b.portugal/" target="_blank" rel="noreferrer">@bubble.b.portugal</a>
+        </article>
+      </section>
+
+      <section class="skills-layout">
+        <article class="info-card liquid-panel">
+          <p class="eyebrow eyebrow-small" data-i18n="portfolio.skills.eyebrow">O que trago</p>
+          <h2 class="section-title" data-i18n="portfolio.skills.title">Competências e línguas</h2>
+
+          <div class="skills-columns">
+            <div>
+              <h3 class="subheading" data-i18n="portfolio.skills.core">Competências principais</h3>
+              <div class="pill-wrap">
+                <span class="skill-pill" data-i18n="portfolio.skills.s1">Cross-border Communication</span>
+                <span class="skill-pill" data-i18n="portfolio.skills.s2">Critical Thinking</span>
+                <span class="skill-pill" data-i18n="portfolio.skills.s3">Translation & Localisation</span>
+                <span class="skill-pill" data-i18n="portfolio.skills.s4">Technical & Medical Translation</span>
+                <span class="skill-pill" data-i18n="portfolio.skills.s5">AI & Prompt Engineering</span>
+                <span class="skill-pill" data-i18n="portfolio.skills.s6">Project Management</span>
+                <span class="skill-pill" data-i18n="portfolio.skills.s7">Team Leadership</span>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="subheading" data-i18n="portfolio.skills.languages">Línguas</h3>
+              <div class="language-list">
+                <div class="language-row"><span data-i18n="languages.pt">Português</span><span class="dots">● ● ● ● ●</span></div>
+                <div class="language-row"><span data-i18n="languages.en">Inglês</span><span class="dots">● ● ● ● ●</span></div>
+                <div class="language-row"><span data-i18n="languages.es">Espanhol</span><span class="dots">● ● ● ● ○</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
