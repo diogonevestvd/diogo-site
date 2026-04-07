@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experiência — Diogo Neves</title>
+  <meta name="description" content="Experiência profissional de Diogo Neves." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="mobile-topbar">
+    <a href="index.html" class="mobile-brand">DN</a>
+
+    <div class="mobile-actions">
+      <div class="mobile-lang-switcher" aria-label="Language switcher">
+        <button class="lang-pill is-active" data-lang-option="pt" type="button">PT</button>
+        <button class="lang-pill" data-lang-option="en" type="button">EN</button>
+        <button class="lang-pill" data-lang-option="es" type="button">ES</button>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu-overlay" hidden>
+    <div class="mobile-menu-panel">
+      <div class="mobile-menu-head">
+        <span class="mobile-menu-title">Diogo Neves</span>
+        <button class="menu-close" type="button" aria-label="Close menu">×</button>
+      </div>
+
+      <nav class="mobile-nav">
+        <a href="index.html" data-i18n="nav.home">Início</a>
+        <a href="experiencia.html" data-i18n="nav.experience">Experiência</a>
+        <a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a>
+        <a href="contactos.html" data-i18n="nav.contact">Contactos</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="page-shell">
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <a href="index.html" class="brand">Diogo Neves</a>
+
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button class="lang-pill is-active" data-lang-option="pt" type="button">PT</button>
+          <button class="lang-pill" data-lang-option="en" type="button">EN</button>
+          <button class="lang-pill" data-lang-option="es" type="button">ES</button>
+        </div>
+      </div>
+
+      <nav class="side-nav">
+        <a href="index.html" data-i18n="nav.home">Início</a>
+        <a href="experiencia.html" class="active" data-i18n="nav.experience">Experiência</a>
+        <a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a>
+        <a href="contactos.html" data-i18n="nav.contact">Contactos</a>
+      </nav>
+
+      <div class="sidebar-note">
+        <p data-i18n="sidebar.note">Translation · Programming · Marketing</p>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section class="inner-header liquid-panel">
+        <p class="eyebrow" data-i18n="experience.eyebrow">Experiência</p>
+        <h1 data-i18n="experience.title">Percurso profissional</h1>
+        <p class="lead smaller" data-i18n="experience.lead">
+          Experiência em áreas diferentes, desde tradução e marketing até atendimento ao público,
+          gestão e desenvolvimento de um projeto próprio.
+        </p>
+      </section>
+
+      <section class="stack-grid">
+        <article class="info-card liquid-panel feature-work">
+          <div class="card-top">
+            <div>
+              <p class="tiny-meta" data-i18n="experience.medical.meta">Freelance</p>
+              <h2 data-i18n="experience.medical.title">Medical Translator</h2>
+              <p class="role" data-i18n="experience.medical.org">EM-Movimento Association</p>
+            </div>
+          </div>
+          <p data-i18n="experience.medical.desc1">Realização de 2 traduções médicas de inglês para português.</p>
+          <p data-i18n="experience.medical.desc2">Publicação pendente, refletindo rigor, responsabilidade e confiança.</p>
+        </article>
+
+        <article class="info-card liquid-panel">
+          <div class="card-top">
+            <div>
+              <h2>Bubble B Portugal</h2>
+              <p class="role" data-i18n="experience.bubble.role">Founder & Marketing</p>
+            </div>
+            <span>2023–2025</span>
+          </div>
+          <p data-i18n="experience.bubble.desc">Projeto próprio em que se destacaram a gestão, o marketing, a criatividade e a construção de identidade de marca.</p>
+        </article>
+
+        <article class="info-card liquid-panel">
+          <div class="card-top">
+            <div>
+              <h2>Continente</h2>
+              <p class="role" data-i18n="experience.continente.role">Customer Service</p>
+            </div>
+            <span>2022–2024</span>
+          </div>
+          <p data-i18n="experience.continente.desc">Experiência em atendimento ao público e reposição, conciliando trabalho e percurso universitário.</p>
+        </article>
+
+        <article class="info-card liquid-panel">
+          <div class="card-top">
+            <div>
+              <h2>Rodapeças, S.A.</h2>
+              <p class="role" data-i18n="experience.rodapecas.role">Multimedia / Marketing</p>
+            </div>
+            <span>2020</span>
+          </div>
+          <p data-i18n="experience.rodapecas.desc">Primeira experiência profissional, ligada ao marketing e ao multimédia.</p>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
