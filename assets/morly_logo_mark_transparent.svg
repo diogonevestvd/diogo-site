@@ -1,0 +1,16 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Morly monogram mark</title>
+  <desc>Transparent clean vector monogram mark for Morly.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="294" y1="318" x2="730" y2="780" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF9A2E"/>
+      <stop offset="48%" stop-color="#F28B2B"/>
+      <stop offset="100%" stop-color="#E96D14"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#markGradient)" stroke-width="52" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M405 690H334C312 690 294 672 294 650V362C294 325 337 306 364 332L512 472"/>
+    <path d="M619 690H690C712 690 730 672 730 650V362C730 325 687 306 660 332L512 472"/>
+    <path d="M512 472V780"/>
+  </g>
+</svg>

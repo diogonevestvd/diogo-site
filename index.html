@@ -1,169 +1,203 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-PT">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Diogo Neves</title>
-  <meta name="description" content="Website pessoal de Diogo Neves — tradução, programação e comunicação visual com foco em clareza, estrutura e detalhe." />
+  <title>Diogo Neves — Linguagem, Produto e Sistemas de Marca</title>
+  <meta name="description" content="Website pessoal de Diogo Neves: linguagem, produto, sistemas de marca e projetos digitais ativos como Morly." />
+  <meta name="theme-color" content="#F4EFE6" />
+  <link rel="canonical" href="https://diogoaaneves.me" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Diogo Neves — Linguagem, Produto e Sistemas de Marca" />
+  <meta property="og:description" content="Website pessoal de Diogo Neves: linguagem, produto, sistemas de marca e projetos digitais ativos como Morly." />
+  <meta property="og:url" content="https://diogoaaneves.me" />
+  <meta property="og:site_name" content="Diogo Neves" />
+  <meta name="twitter:card" content="summary" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
-  <script>document.documentElement.classList.add("has-js");</script>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
+  <link rel="alternate" hreflang="pt-PT" href="https://diogoaaneves.me/" />
+  <link rel="alternate" hreflang="en" href="https://diogoaaneves.me/en/index.html" />
+  <link rel="alternate" hreflang="es" href="https://diogoaaneves.me/es/index.html" />
   <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
-<body class="home-page">
-
-  <div class="page-transition" aria-hidden="true">
-    <div class="transition-band transition-band--one"></div>
-    <div class="transition-band transition-band--two"></div>
-    <div class="transition-band transition-band--three"></div>
-    <p class="transition-word">Diogo Neves</p>
-  </div>
-
-  <div class="ambient-field" aria-hidden="true">
-    <span class="ambient-shape ambient-shape--circle"></span>
-    <span class="ambient-shape ambient-shape--pill"></span>
-    <span class="ambient-shape ambient-shape--dot"></span>
-  </div>
-
-  <div class="cursor-orb" aria-hidden="true"></div>
-
-  <header class="mobile-topbar">
-    <a href="index.html" class="mobile-brand">DN</a>
-
-    <div class="mobile-actions">
-      <div class="mobile-lang-switcher" aria-label="Language switcher">
-        <button class="lang-pill is-active" data-lang-option="pt" type="button">PT</button>
-        <button class="lang-pill" data-lang-option="en" type="button">EN</button>
-        <button class="lang-pill" data-lang-option="es" type="button">ES</button>
-      </div>
-
-      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <div class="mobile-menu-overlay" hidden>
-    <div class="mobile-menu-panel">
-      <div class="mobile-menu-head">
-        <span class="mobile-menu-title">Diogo Neves</span>
-        <button class="menu-close" type="button" aria-label="Close menu">×</button>
-      </div>
-
-      <nav class="mobile-nav">
-        <a href="index.html" data-i18n="nav.home">Início</a>
-        <a href="experiencia.html" data-i18n="nav.experience">Experiência</a>
-        <a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a>
-        <a href="contactos.html" data-i18n="nav.contact">Contactos</a>
+<body>
+  <a class="skip-link" href="#main">Saltar para o conteúdo</a>
+  <div class="paper-grain" aria-hidden="true"></div>
+  
+    <header class="site-header" data-header>
+      <a href="index.html" class="brand-mark" aria-label="Diogo Neves — página inicial">
+        <span>DN</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="projetos.html" class="nav-link ">Projetos</a>
+<a href="sobre.html" class="nav-link ">Sobre</a>
+<a href="notas.html" class="nav-link ">Notas</a>
+<a href="contacto.html" class="nav-link ">Contacto</a>
       </nav>
+      <div class="header-actions">
+        <nav class="language-switcher" aria-label="Idiomas">
+          <a class="lang-chip is-active" href="index.html" aria-current="page">PT</a>
+          <a class="lang-chip" href="en/index.html">EN</a>
+          <a class="lang-chip" href="es/index.html">ES</a>
+        </nav>
+        <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-button>
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <div class="mobile-menu" hidden data-mobile-menu>
+      <div class="mobile-menu-card">
+        <div class="mobile-menu-top">
+          <span>Diogo Neves</span>
+          <button class="menu-close" type="button" aria-label="Fechar menu" data-menu-close>×</button>
+        </div>
+        <nav aria-label="Navegação mobile">
+          <a href="projetos.html" class="mobile-nav-link ">Projetos</a>
+<a href="sobre.html" class="mobile-nav-link ">Sobre</a>
+<a href="notas.html" class="mobile-nav-link ">Notas</a>
+<a href="contacto.html" class="mobile-nav-link ">Contacto</a>
+          <a href="https://www.linkedin.com/in/diogo-neves-6a0631264/" target="_blank" rel="noreferrer" class="mobile-nav-link">LinkedIn</a>
+          <div class="mobile-lang-row" aria-label="Idiomas">
+            <a class="is-active" href="index.html">PT</a><a href="en/index.html">EN</a><a href="es/index.html">ES</a>
+          </div>
+        </nav>
+      </div>
     </div>
-  </div>
+  <main id="main">
 
-  <div class="page-shell">
-    <aside class="sidebar">
-      <div class="sidebar-top">
-        <a href="index.html" class="brand">Diogo Neves</a>
+    <section class="editorial-hero page-section reveal">
+      <div class="frontpage-rule" aria-label="Contexto editorial">
+        <span>Diogo Neves</span>
+        <span>Digital Systems Journal</span>
+        <span>Lisboa · PT</span>
+      </div>
+      <div class="editorial-hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Linguagem · Produto · Marca</p>
+          <h1>Complexidade em sistemas claros.</h1>
+          <p class="lede">Trabalho entre tradução, pensamento de interface e comunicação de marca — estruturando ideias, produtos e mensagens com precisão editorial.</p>
+          <div class="hero-cta">
+            <a class="button button-primary" href="projetos.html">Ver projetos</a>
+            <a class="button button-secondary" href="contacto.html">Contacto</a>
+          </div>
+        </div>
+        <aside class="hero-feature-stack" aria-label="Retrato e projeto atual">
+          <figure class="portrait-card paper-card">
+            <img src="assets/diogo-photo.jpg" alt="Retrato de Diogo Neves" />
+            <figcaption>
+              <span>Editor / Builder</span>
+              Linguagem, produto e sistemas de marca.
+            </figcaption>
+          </figure>
+          <a class="current-card paper-card" href="morly.html">
+            <img class="morly-mini-mark" src="assets/morly_logo_mark_transparent.svg" alt="Morly logo mark" />
+            <span class="card-index">Projeto atual</span>
+            <strong>Morly</strong>
+            <small>Love better, not louder.</small>
+          </a>
+        </aside>
+      </div>
+    </section>
 
-        <div class="lang-switcher" aria-label="Language switcher">
-          <button class="lang-pill is-active" data-lang-option="pt" type="button">PT</button>
-          <button class="lang-pill" data-lang-option="en" type="button">EN</button>
-          <button class="lang-pill" data-lang-option="es" type="button">ES</button>
+    <section class="featured-morly page-section page-section-tight reveal">
+      <div class="morly-artifact">
+        <img src="assets/morly_logo_mark_transparent.svg" alt="Morly monogram" />
+        <div>
+          <p class="eyebrow morly-eyebrow">Produto ativo · Em desenvolvimento</p>
+          <h2>Privado primeiro. Social apenas quando escolhido.</h2>
         </div>
       </div>
+      <div class="featured-copy">
+        <p class="section-number">01 / Principal</p>
+        <h2>Morly é a prova mais clara da minha direção atual.</h2>
+        <p>É uma app privada para relações, construída em torno de perfis partilhados de casal, momentos, conversas privadas, histórico da relação e partilha social controlada.</p>
+        <div class="tag-row">
+          <span>Estratégia de produto</span><span>Arquitetura UX</span><span>Lógica de privacidade</span><span>Direção de marca</span>
+        </div>
+      </div>
+    </section>
 
-      <nav class="side-nav">
-        <a href="index.html" class="active" data-i18n="nav.home">Início</a>
-        <a href="experiencia.html" data-i18n="nav.experience">Experiência</a>
-        <a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a>
-        <a href="contactos.html" data-i18n="nav.contact">Contactos</a>
+    <section class="proof-strip page-section-tight reveal" aria-label="Core capabilities">
+      <article><span>01</span><strong>Pensamento de produto</strong><p>Sistemas, fluxos, escopo e restrições de produto.</p></article>
+      <article><span>02</span><strong>Precisão linguística</strong><p>Tradução, terminologia e clareza sob responsabilidade.</p></article>
+      <article><span>03</span><strong>Sistemas de marca</strong><p>Identidade, mensagem, consistência visual e posicionamento.</p></article>
+      <article><span>04</span><strong>UX privacy-first</strong><p>Experiências digitais com limites emocionais e éticos.</p></article>
+    </section>
+
+    <section class="page-section projects-preview reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Trabalho selecionado</p>
+        <h2>Projetos como prova de raciocínio.</h2>
+      </div>
+      <div class="project-list compact-list">
+        <a href="morly.html" class="project-row project-row-featured">
+          <span class="project-no">01</span>
+          <span><strong>Morly</strong><small>App privada para casais · produto ativo</small></span>
+          <em>Produto / UX / Marca</em>
+        </a>
+        <a href="sul.html" class="project-row">
+          <span class="project-no">02</span>
+          <span><strong>Sul</strong><small>Sistema pessoal de planeamento</small></span>
+          <em>Produto / Estrutura</em>
+        </a>
+        <a href="medical-translations.html" class="project-row">
+          <span class="project-no">03</span>
+          <span><strong>Traduções médicas</strong><small>Tradução médica EN→PT</small></span>
+          <em>Linguagem / Precisão</em>
+        </a>
+        <a href="bubble-b-portugal.html" class="project-row">
+          <span class="project-no">04</span>
+          <span><strong>Bubble B Portugal</strong><small>Marca própria e sistema de comunicação</small></span>
+          <em>Marca / Marketing</em>
+        </a>
+      </div>
+    </section>
+
+    <section class="method-section page-section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Método</p>
+        <h2>Clareza é uma sequência, não um efeito visual.</h2>
+      </div>
+      <div class="method-grid">
+        <article><span>1</span><h3>Clarificar</h3><p>Definir o problema real antes de escolher o formato.</p></article>
+        <article><span>2</span><h3>Estruturar</h3><p>Organizar conteúdo, ecrãs, decisões e restrições.</p></article>
+        <article><span>3</span><h3>Escrever</h3><p>Tornar a linguagem exata, natural e útil.</p></article>
+        <article><span>4</span><h3>Refinar</h3><p>Remover ruído até o trabalho parecer inevitável.</p></article>
+      </div>
+    </section>
+
+    <section class="page-section closing-panel reveal">
+      <p class="eyebrow">Aberto a colaboração focada</p>
+      <h2>Para ideias de produto, tradução, sistemas de comunicação ou projetos de marca.</h2>
+      <a class="button button-primary" href="contacto.html">Começar com contexto</a>
+    </section>
+  </main>
+  
+    <footer class="site-footer">
+      <div>
+        <p class="footer-kicker">Diogo Neves</p>
+        <p>Linguagem · Produto · Sistemas de marca</p>
+      </div>
+      <nav aria-label="Links secundários" class="footer-links">
+        <a href="projetos.html">Projetos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="mailto:diogonevestvd@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/diogo-neves-6a0631264/" target="_blank" rel="noreferrer">LinkedIn</a>
       </nav>
-
-      <div class="sidebar-note">
-        <p data-i18n="sidebar.note">Translation · Programming · Marketing</p>
-      </div>
-    </aside>
-
-    <main class="content">
-      <section class="hero hero--home">
-        <div class="intro-block liquid-panel">
-          <div class="hero-kicker-row">
-            <p class="eyebrow" data-i18n="home.eyebrow">Perfil interdisciplinar</p>
-            <span class="hero-index" aria-hidden="true">01 / 04</span>
-          </div>
-
-          <h1 class="hero-title"><span>Diogo</span> <span>Neves</span></h1>
-
-          <p class="hero-thesis" data-i18n="home.thesis">
-            Entre linguagem, produto e marca — comunicação clara, interfaces cuidadas e soluções digitais com atenção extrema ao detalhe.
-          </p>
-
-          <p class="lead" data-i18n="home.lead">
-            Sou estudante de Tradução, com formação em multimédia e interesse ativo em programação.
-            Gosto de transformar ideias difusas em estruturas claras: textos, páginas, marcas, sistemas e experiências digitais.
-          </p>
-
-          <div class="hero-signature" aria-label="Translation, Code, Visual Communication">
-            <span data-i18n="home.signature.translation">Language</span>
-            <span data-i18n="home.signature.code">Code</span>
-            <span data-i18n="home.signature.visual">Brand Systems</span>
-          </div>
-
-          <div class="hero-proof-grid liquid-soft">
-            <div>
-              <span data-i18n="home.proof.focus.label">Foco</span>
-              <strong data-i18n="home.proof.focus.value">Clareza</strong>
-            </div>
-            <div>
-              <span data-i18n="home.proof.fields.label">Áreas</span>
-              <strong data-i18n="home.proof.fields.value">Tradução · Produto · Marca</strong>
-            </div>
-            <div>
-              <span data-i18n="home.proof.mode.label">Método</span>
-              <strong data-i18n="home.proof.mode.value">Estrutura, ritmo e detalhe</strong>
-            </div>
-          </div>
-
-          <div class="formation liquid-soft">
-            <span class="mini-badge" data-i18n="home.education.badge">Formação</span>
-            <ul class="formation-list">
-              <li>
-                <strong data-i18n="home.education.degree">Licenciatura em Tradução</strong>
-                <span data-i18n="home.education.degreeStatus">Em curso</span>
-              </li>
-              <li>
-                <strong data-i18n="home.education.minor">Minor em Ciências da Linguagem</strong>
-                <span data-i18n="home.education.minorStatus">Concluído</span>
-              </li>
-              <li>
-                <strong data-i18n="home.education.multimedia">Curso Técnico de Multimédia</strong>
-                <span data-i18n="home.education.multimediaStatus">Concluído</span>
-              </li>
-            </ul>
-          </div>
-
-          <div class="button-row">
-            <a href="experiencia.html" class="liquid-button primary" data-i18n="home.cta.experience">Explorar percurso</a>
-            <a href="portfolio.html" class="liquid-button secondary" data-i18n="home.cta.portfolio">Ver projetos</a>
-          </div>
-        </div>
-
-        <div class="photo-panel">
-          <div class="photo-frame liquid-panel">
-            <img src="diogo-photo.jpg" alt="Fotografia de Diogo Neves" class="hero-photo" />
-          </div>
-          <div class="photo-caption liquid-soft">
-            <span data-i18n="home.photo.kicker">Portugal-based</span>
-            <strong>DN</strong>
-          </div>
-        </div>
-      </section>
-    </main>
-  </div>
-
-  <script src="assets/vendor/gsap.min.js"></script>
-  <script src="assets/vendor/ScrollTrigger.min.js"></script>
-  <script src="assets/vendor/lenis.min.js"></script>
-  <script src="script.js"></script>
+    </footer>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Diogo Neves",
+    "url": "https://diogoaaneves.me",
+    "email": "mailto:diogonevestvd@gmail.com",
+    "sameAs": ["https://www.linkedin.com/in/diogo-neves-6a0631264/"],
+    "knowsAbout": ["Tradução", "Estratégia de produto", "Comunicação digital", "Sistemas de marca", "Arquitetura UX"]
+  }
+  </script>
 </body>
 </html>
