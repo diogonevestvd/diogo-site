@@ -1,173 +1,144 @@
 <!DOCTYPE html>
-<html lang="pt-PT">
+
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Morly — Diogo Neves</title>
-  <meta name="description" content="Estudo principal de Morly, uma app privada para relações construída em torno de perfis partilhados de casal e UX privacy-first." />
-  <meta name="theme-color" content="#F4EFE6" />
-  <link rel="canonical" href="https://diogoaaneves.me/morly.html" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Morly — Diogo Neves" />
-  <meta property="og:description" content="Estudo principal de Morly, uma app privada para relações construída em torno de perfis partilhados de casal e UX privacy-first." />
-  <meta property="og:url" content="https://diogoaaneves.me/morly.html" />
-  <meta property="og:site_name" content="Diogo Neves" />
-  <meta name="twitter:card" content="summary" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
-  <link rel="alternate" hreflang="pt-PT" href="https://diogoaaneves.me/morly.html" />
-  <link rel="alternate" hreflang="en" href="https://diogoaaneves.me/en/morly.html" />
-  <link rel="alternate" hreflang="es" href="https://diogoaaneves.me/es/morly.html" />
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="script.js"></script>
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Morly | Product &amp; UX Case Study | Diogo Neves</title>
+<meta content="Morly is a product and UX case study showing interface architecture, onboarding, privacy-first thinking and the relationship between language and product constraints." name="description"/>
+<meta content="#F4EFE6" name="theme-color"/>
+<link href="https://diogoaaneves.me/morly.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="Morly | Product &amp; UX Case Study | Diogo Neves" property="og:title"/>
+<meta content="Morly is a product and UX case study showing interface architecture, onboarding, privacy-first thinking and the relationship between language and product constraints." property="og:description"/>
+<meta content="https://diogoaaneves.me/morly.html" property="og:url"/>
+<meta content="Diogo Neves" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://diogoaaneves.me/morly.html" hreflang="x-default" rel="alternate"/><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&amp;display=swap" rel="stylesheet"/>
+<link href="https://diogoaaneves.me/pt/morly.html" hreflang="pt-PT" rel="alternate"/>
+<link href="https://diogoaaneves.me/morly.html" hreflang="en" rel="alternate"/>
+<link href="https://diogoaaneves.me/es/morly.html" hreflang="es" rel="alternate"/>
+<link href="styles.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
+<meta content="index,follow,max-image-preview:large" name="robots"/><meta content="Morly | Product &amp; UX Case Study | Diogo Neves" name="twitter:title"/><meta content="Morly is a product and UX case study showing interface architecture, onboarding, privacy-first thinking and the relationship between language and product constraints." name="twitter:description"/><meta content="Diogo Neves" name="author"/><meta content="light" name="color-scheme"/><meta content="en_US" property="og:locale"/><meta content="pt_PT" property="og:locale:alternate"/><meta content="es_ES" property="og:locale:alternate"/><meta content="https://diogoaaneves.me/assets/diogo-neves-social-card.png" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="image/png" property="og:image:type"/><meta content="Diogo Neves, European Portuguese linguist, translation QA and AI language evaluation" property="og:image:alt"/><meta content="https://diogoaaneves.me/assets/diogo-neves-social-card.png" name="twitter:image"/><meta content="Diogo Neves, European Portuguese linguist, translation QA and AI language evaluation" name="twitter:image:alt"/><link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/><link href="assets/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/></head>
 <body>
-  <a class="skip-link" href="#main">Saltar para o conteúdo</a>
-  <div class="paper-grain" aria-hidden="true"></div>
-  
-    <header class="site-header" data-header>
-      <a href="index.html" class="brand-mark" aria-label="Diogo Neves — página inicial">
-        <span>DN</span>
-      </a>
-      <nav class="desktop-nav" aria-label="Navegação principal">
-        <a href="projetos.html" class="nav-link is-active">Projetos</a>
-<a href="sobre.html" class="nav-link ">Sobre</a>
-<a href="notas.html" class="nav-link ">Notas</a>
-<a href="contacto.html" class="nav-link ">Contacto</a>
-      </nav>
-      <div class="header-actions">
-        <nav class="language-switcher" aria-label="Idiomas">
-          <a class="lang-chip is-active" href="morly.html" aria-current="page">PT</a>
-          <a class="lang-chip" href="en/morly.html">EN</a>
-          <a class="lang-chip" href="es/morly.html">ES</a>
-        </nav>
-        <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-button>
-          <span></span><span></span>
-        </button>
-      </div>
-    </header>
-    <div class="mobile-menu" hidden data-mobile-menu>
-      <div class="mobile-menu-card">
-        <div class="mobile-menu-top">
-          <span>Diogo Neves</span>
-          <button class="menu-close" type="button" aria-label="Fechar menu" data-menu-close>×</button>
-        </div>
-        <nav aria-label="Navegação mobile">
-          <a href="projetos.html" class="mobile-nav-link is-active">Projetos</a>
-<a href="sobre.html" class="mobile-nav-link ">Sobre</a>
-<a href="notas.html" class="mobile-nav-link ">Notas</a>
-<a href="contacto.html" class="mobile-nav-link ">Contacto</a>
-          <a href="https://www.linkedin.com/in/diogo-neves-6a0631264/" target="_blank" rel="noreferrer" class="mobile-nav-link">LinkedIn</a>
-          <div class="mobile-lang-row" aria-label="Idiomas">
-            <a class="is-active" href="morly.html">PT</a><a href="en/morly.html">EN</a><a href="es/morly.html">ES</a>
-          </div>
-        </nav>
-      </div>
-    </div>
-  <main id="main">
-
-    <section class="case-hero morly-case page-section reveal">
-      <div>
-        <p class="eyebrow">Estudo principal · Produto ativo</p>
-        <h1>Morly</h1>
-        <p class="case-tagline">Love better, not louder.</p>
-        <p class="lede">Uma app privada para casais. Ajuda duas pessoas a guardar memórias, abrir conversas privadas, revisitar o histórico da relação e partilhar momentos selecionados apenas quando escolhem fazê-lo.</p>
-      </div>
-      <aside class="case-meta morly-dark-card">
-        <img src="assets/morly_logo_mark_transparent.svg" alt="Morly logo mark" />
-        <dl>
-          <div><dt>Tipo</dt><dd>App privada para relações</dd></div>
-          <div><dt>Papel</dt><dd>Conceito de produto, estratégia UX, direção de marca, arquitetura de informação</dd></div>
-          <div><dt>Estado</dt><dd>Em desenvolvimento</dd></div>
-        </dl>
-      </aside>
-    </section>
-
-    <section class="page-section case-section reveal">
-      <p class="section-number">01 / Problema</p>
-      <h2>As pessoas comunicam constantemente, mas evitam muitas vezes as conversas que mais importam.</h2>
-      <p>Apps de mensagens já existem. O espaço que Morly explora fica entre a conversa casual e a terapia formal: apreciação, desconforto, questões recorrentes, intimidade, memórias e pequenas verdades emocionais que muitas vezes ficam dispersas, evitadas ou esquecidas.</p>
-    </section>
-
-    <section class="principle-banner reveal" aria-label="Princípio de produto Morly">
-      <span>Privado primeiro.</span>
-      <span>Social só quando escolhido.</span>
-    </section>
-
-    <section class="page-section case-section reveal">
-      <p class="section-number">02 / Arquitetura</p>
-      <h2>Um sistema de produto em cinco partes.</h2>
-      <div class="architecture-grid">
-        <article><span>Home</span><p>Dashboard privado diário da relação com uma opção social controlada.</p></article>
-        <article><span>Moments</span><p>Arquivo da relação: cronologia, álbuns, recaps mensais e rewind anual.</p></article>
-        <article><span>Add</span><p>Fluxo de criação camera-first para momentos, memórias, notas, conversas, desejos e posts.</p></article>
-        <article><span>Talks</span><p>Conversas privadas e assuntos que precisam de atenção.</p></article>
-        <article><span>Us</span><p>Perfil de casal, centro da relação, privacidade e definições.</p></article>
-      </div>
-    </section>
-
-    <section class="page-section split-case reveal">
-      <div>
-        <p class="section-number">03 / Modelo de identidade</p>
-        <h2>Login individual. Perfil de casal partilhado.</h2>
-        <p>Os utilizadores precisam de contas individuais para segurança e propriedade dos dados, mas o objeto social é o perfil de casal. Essa distinção impede Morly de se tornar apenas outra rede social individual.</p>
-      </div>
-      <div class="paper-card stacked-list">
-        <span>Conta individual</span>
-        <span>Perfil de casal partilhado</span>
-        <span>Espaço privado da relação</span>
-        <span>Camada social controlada</span>
-      </div>
-    </section>
-
-    <section class="page-section privacy-section reveal">
-      <div class="section-heading">
-        <p class="section-number">04 / Lógica de privacidade</p>
-        <h2>O produto só funciona se o conteúdo sensível não puder escapar para o espaço público.</h2>
-      </div>
-      <div class="two-lanes">
-        <article class="paper-card"><h3>Privado por desenho</h3><ul><li>Talks</li><li>Notas sensíveis</li><li>Memórias só nossas</li><li>Histórico da relação</li></ul></article>
-        <article class="paper-card"><h3>Partilhável por escolha</h3><ul><li>Momentos selecionados</li><li>Posts aprovados</li><li>Marcos</li><li>Recaps seguros</li></ul></article>
-      </div>
-    </section>
-
-    <section class="page-section case-section reveal">
-      <p class="section-number">05 / Disciplina de MVP</p>
-      <h2>A V1 deve provar a experiência privada do casal antes de construir em excesso a rede pública.</h2>
-      <div class="mvp-grid">
-        <span>Contas individuais</span><span>Perfil de casal partilhado</span><span>Onboarding com promessa de privacidade</span><span>Home com switch Nós/Casais</span><span>Carrossel Add camera-first</span><span>Timeline de momentos</span><span>Separador Talks</span><span>Dashboard Nós</span><span>Recap mensal</span>
-      </div>
-    </section>
-
-    <section class="page-section closing-panel morly-closing reveal">
-      <p class="eyebrow">O que isto prova</p>
-      <h2>Morly mostra como penso lógica de produto, privacidade, UX emocional, identidade de marca, arquitetura de interface e escopo de longo prazo.</h2>
-      <a class="button button-primary" href="projetos.html">Voltar aos projetos</a>
-    </section>
-  </main>
-  
-    <footer class="site-footer">
-      <div>
-        <p class="footer-kicker">Diogo Neves</p>
-        <p>Linguagem · Produto · Sistemas de marca</p>
-      </div>
-      <nav aria-label="Links secundários" class="footer-links">
-        <a href="projetos.html">Projetos</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="mailto:diogonevestvd@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/diogo-neves-6a0631264/" target="_blank" rel="noreferrer">LinkedIn</a>
-      </nav>
-    </footer>
-  
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": "Morly",
-    "description": "Conceito de app privada para relações, construído em torno de perfis partilhados de casal, momentos, conversas privadas e partilha social controlada.",
-    "creator": {"@type": "Person", "name": "Diogo Neves"}
-  }
-  </script>
+<a class="skip-link" href="#main">Skip to content</a>
+<div aria-hidden="true" class="paper-grain"></div>
+<header class="site-header" data-header="">
+<a aria-label="Diogo Neves - home" class="brand-mark" href="index.html">
+<span>DN</span>
+</a>
+<nav aria-label="Main navigation" class="desktop-nav"><a class="nav-link is-active" href="projetos.html">Work</a><a class="nav-link" href="language-ai.html">Language &amp; AI</a><a class="nav-link" href="localization-sprint.html">Services</a><a class="nav-link" href="sobre.html">About</a><a class="nav-link" href="contacto.html">Contact</a></nav>
+<div class="header-actions">
+<nav aria-label="Languages" class="language-switcher">
+<a class="lang-chip" href="pt/morly.html">PT</a>
+<a aria-current="page" class="lang-chip is-active" href="morly.html">EN</a>
+<a class="lang-chip" href="es/morly.html">ES</a>
+</nav>
+<button aria-expanded="false" aria-label="Open menu" class="menu-button" data-menu-button="" type="button">
+<span></span><span></span>
+</button>
+</div>
+</header>
+<div aria-hidden="true" class="mobile-menu" data-mobile-menu="" hidden="">
+<div aria-label="Site menu" aria-modal="true" class="mobile-menu-card" role="dialog">
+<div class="mobile-menu-top">
+<span>Diogo Neves</span>
+<button aria-label="Close menu" class="menu-close" data-menu-close="" type="button">×</button>
+</div>
+<nav aria-label="Mobile navigation">
+<a class="mobile-nav-link" href="contacto.html">Contact</a><a class="mobile-nav-link" href="sobre.html">About</a><a class="mobile-nav-link" href="language-ai.html">Language &amp; AI</a><a class="mobile-nav-link" href="localization-sprint.html">Services</a><a class="mobile-nav-link is-active" href="projetos.html">Work</a><div aria-label="Languages" class="mobile-lang-row">
+<a href="pt/morly.html">PT</a><a aria-current="page" class="is-active" href="morly.html">EN</a><a href="es/morly.html">ES</a>
+</div>
+</nav>
+</div>
+</div>
+<main id="main">
+<section class="case-hero morly-case page-section reveal">
+<div>
+<p class="eyebrow">Main case study · Active product</p>
+<h1>Morly</h1>
+<p class="case-tagline">Love better, not louder.</p>
+<p class="lede">A private app for couples. It helps two people preserve memories, open private conversations, revisit their relationship history and share selected moments only when they choose to.</p>
+</div>
+<aside class="case-meta morly-dark-card">
+<img alt="Morly logo mark" decoding="async" height="512" loading="lazy" src="assets/morly_logo_mark_transparent.svg" width="512"/>
+<dl>
+<div><dt>Type</dt><dd>Private relationship app</dd></div>
+<div><dt>Role</dt><dd>Product concept, UX strategy, brand direction, information architecture</dd></div>
+<div><dt>Status</dt><dd>In development</dd></div>
+</dl>
+</aside>
+</section>
+<section class="page-section case-section reveal">
+<p class="section-number">01 / Problem</p>
+<h2>People communicate constantly, yet often avoid the conversations that matter most.</h2>
+<p>Messaging apps already exist. Morly explores the space between casual conversation and formal therapy: appreciation, discomfort, recurring issues, intimacy, memories and small emotional truths that are often scattered, avoided or forgotten.</p>
+</section>
+<section aria-label="Morly product principle" class="principle-banner reveal">
+<span>Private first.</span>
+<span>Social only when chosen.</span>
+</section>
+<section class="page-section case-section reveal">
+<p class="section-number">02 / Architecture</p>
+<h2>A five-part product system.</h2>
+<div class="architecture-grid">
+<article><span>Home</span><p>Private daily relationship dashboard with a controlled social option.</p></article>
+<article><span>Moments</span><p>Relationship archive: timeline, albums, monthly recaps and annual rewind.</p></article>
+<article><span>Add</span><p>Camera-first creation flow for moments, memories, notes, conversations, wishes and posts.</p></article>
+<article><span>Talks</span><p>Private conversations and topics that need attention.</p></article>
+<article><span>Us</span><p>Couple profile, relationship hub, privacy and settings.</p></article>
+</div>
+</section>
+<section class="page-section split-case reveal">
+<div>
+<p class="section-number">03 / Identity model</p>
+<h2>Individual login. Shared couple profile.</h2>
+<p>Users need individual accounts for security and data ownership, while the social object is the shared couple profile. That distinction keeps Morly from becoming just another individual social network.</p>
+</div>
+<div class="paper-card stacked-list">
+<span>Individual account</span>
+<span>Shared couple profile</span>
+<span>Private relationship space</span>
+<span>Controlled social layer</span>
+</div>
+</section>
+<section class="page-section privacy-section reveal">
+<div class="section-heading">
+<p class="section-number">04 / Privacy logic</p>
+<h2>The product only works if sensitive content cannot leak into the public space.</h2>
+</div>
+<div class="two-lanes">
+<article class="paper-card"><h3>Private by design</h3><ul><li>Talks</li><li>Sensitive notes</li><li>Private memories</li><li>Relationship history</li></ul></article>
+<article class="paper-card"><h3>Shareable by choice</h3><ul><li>Selected moments</li><li>Approved posts</li><li>Milestones</li><li>Safe recaps</li></ul></article>
+</div>
+</section>
+<section class="page-section case-section reveal">
+<p class="section-number">05 / MVP discipline</p>
+<h2>V1 should prove the private couple experience before overbuilding the public network.</h2>
+<div class="mvp-grid">
+<span>Individual accounts</span><span>Shared couple profile</span><span>Privacy-promise onboarding</span><span>Home with Us/Couples switch</span><span>Camera-first Add carousel</span><span>Moments timeline</span><span>Talks tab</span><span>Us dashboard</span><span>Monthly recap</span>
+</div>
+</section>
+<section class="page-section split-case reveal product-language-context"><div><p class="section-number">06 / Language inside products</p><h2>A localized string is part of an interface, not an isolated sentence.</h2><p>Building Morly requires decisions about labels, onboarding promises, privacy wording, recurring terminology and emotional tone inside real product flows. That perspective is directly relevant to localization QA: Portuguese has to be accurate and natural, but it also has to fit the action, hierarchy and trust requirements of the interface.</p></div><div class="paper-card stacked-list"><span>UI labels</span><span>Onboarding language</span><span>Privacy wording</span><span>Terminology consistency</span><span>Tone across flows</span></div></section><section class="page-section closing-panel morly-closing reveal">
+<p class="eyebrow">What this demonstrates</p>
+<h2>Morly adds product context to the language portfolio: interface architecture, privacy, UX decisions and the constraints localized copy has to work within.</h2>
+<a class="button button-primary" href="projetos.html">Back to projects</a>
+</section>
+</main>
+<footer class="site-footer">
+<div>
+<p class="footer-kicker">Diogo Neves</p>
+<p>European Portuguese · Translation QA · AI language evaluation</p>
+</div>
+<nav aria-label="Secondary links" class="footer-links"><a href="language-ai.html">Language &amp; AI</a><a href="localization-sprint.html">Services</a>
+<a href="projetos.html">Work</a>
+<a href="sobre.html">About</a>
+<a download="" href="assets/diogo-neves-cv.pdf">CV</a><a href="mailto:diogonevestvd@gmail.com">Email</a>
+</nav>
+</footer>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CreativeWork","name":"Morly","description":"A private relationship app built around shared couple profiles, moments, private conversations and controlled social sharing.","creator":{"@type":"Person","name":"Diogo Neves"}}</script>
 </body>
 </html>

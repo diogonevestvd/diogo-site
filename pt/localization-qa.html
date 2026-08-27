@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>QA de Localização PT-PT | Amostra | Diogo Neves</title>
+<meta content="Amostra prática de QA de localização PT-PT com texto de interface antes e depois, classificação de problemas, severidade e justificação das correções." name="description"/>
+<meta content="#F4EFE6" name="theme-color"/>
+<link href="https://diogoaaneves.me/pt/localization-qa.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="QA de Localização PT-PT | Amostra | Diogo Neves" property="og:title"/>
+<meta content="Amostra prática de QA de localização PT-PT com texto de interface antes e depois, classificação de problemas, severidade e justificação das correções." property="og:description"/>
+<meta content="https://diogoaaneves.me/pt/localization-qa.html" property="og:url"/>
+<meta content="Diogo Neves" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://diogoaaneves.me/localization-qa.html" hreflang="x-default" rel="alternate"/><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&amp;display=swap" rel="stylesheet"/>
+<link href="https://diogoaaneves.me/pt/localization-qa.html" hreflang="pt-PT" rel="alternate"/>
+<link href="https://diogoaaneves.me/localization-qa.html" hreflang="en" rel="alternate"/>
+<link href="https://diogoaaneves.me/es/localization-qa.html" hreflang="es" rel="alternate"/>
+<link href="../styles.css" rel="stylesheet"/>
+<script defer="" src="../script.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"PT-PT Localization QA | Amostra de Localização | Diogo Neves","author":{"@type":"Person","name":"Diogo Neves","url":"https://diogoaaneves.me/"},"about":["European Portuguese","Localization QA","Machine translation post-editing","UX localization"],"mainEntityOfPage":"https://diogoaaneves.me/localization-qa.html"}</script>
+<meta content="index,follow,max-image-preview:large" name="robots"/><meta content="QA de Localização PT-PT | Amostra | Diogo Neves" name="twitter:title"/><meta content="Amostra prática de QA de localização PT-PT com texto de interface antes e depois, classificação de problemas, severidade e justificação das correções." name="twitter:description"/><meta content="Diogo Neves" name="author"/><meta content="light" name="color-scheme"/><meta content="pt_PT" property="og:locale"/><meta content="en_US" property="og:locale:alternate"/><meta content="es_ES" property="og:locale:alternate"/><meta content="https://diogoaaneves.me/assets/diogo-neves-social-card.png" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="image/png" property="og:image:type"/><meta content="Diogo Neves, linguista de português europeu, QA de tradução e avaliação linguística de IA" property="og:image:alt"/><meta content="https://diogoaaneves.me/assets/diogo-neves-social-card.png" name="twitter:image"/><meta content="Diogo Neves, linguista de português europeu, QA de tradução e avaliação linguística de IA" name="twitter:image:alt"/><link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/><link href="../assets/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/></head>
+<body>
+<a class="skip-link" href="#main">Saltar para o conteúdo</a>
+<div aria-hidden="true" class="paper-grain"></div>
+<header class="site-header" data-header="">
+<a aria-label="Diogo Neves - página inicial" class="brand-mark" href="index.html"><span>DN</span></a>
+<nav aria-label="Navegação principal" class="desktop-nav"><a class="nav-link is-active" href="projetos.html">Trabalho</a><a class="nav-link" href="language-ai.html">Linguagem &amp; AI</a><a class="nav-link" href="localization-sprint.html">Serviços</a><a class="nav-link" href="sobre.html">Sobre</a><a class="nav-link" href="contacto.html">Contacto</a></nav>
+<div class="header-actions"><nav aria-label="Idiomas" class="language-switcher"><a aria-current="page" class="lang-chip is-active" href="localization-qa.html">PT</a><a class="lang-chip" href="../localization-qa.html">EN</a><a class="lang-chip" href="../es/localization-qa.html">ES</a></nav><button aria-expanded="false" aria-label="Abrir menu" class="menu-button" data-menu-button="" type="button"><span></span><span></span></button></div>
+</header>
+<div aria-hidden="true" class="mobile-menu" data-mobile-menu="" hidden=""><div aria-label="Site menu" aria-modal="true" class="mobile-menu-card" role="dialog"><div class="mobile-menu-top"><span>Diogo Neves</span><button aria-label="Fechar menu" class="menu-close" data-menu-close="" type="button">×</button></div><nav aria-label="Navegação mobile"><a class="mobile-nav-link" href="contacto.html">Contacto</a><a class="mobile-nav-link" href="sobre.html">Sobre</a><a class="mobile-nav-link" href="language-ai.html">Linguagem &amp; AI</a><a class="mobile-nav-link" href="localization-sprint.html">Serviços</a><a class="mobile-nav-link is-active" href="projetos.html">Trabalho</a><div aria-label="Idiomas" class="mobile-lang-row"><a aria-current="page" class="is-active" href="localization-qa.html">PT</a><a href="../localization-qa.html">EN</a><a href="../es/localization-qa.html">ES</a></div></nav></div></div>
+<main id="main">
+<section class="case-hero page-section reveal qa-case-hero"><div><p class="eyebrow">Projeto demonstrativo · Localização SaaS / UX</p><h1>PT-PT Localization QA</h1><p class="case-tagline">De output simulado de MT/IA a português europeu pronto para produto.</p><p class="lede">Criei esta amostra fictícia para demonstrar como avalio e localizo texto de interface para português europeu. O exercício parte de cinco strings em inglês e de uma versão portuguesa deliberadamente imperfeita, simulando problemas comuns de MT/IA: interferência PT-BR, decalques, erros de sentido, tom mecânico e formatação inadequada.</p><div class="hero-cta"><a class="button button-primary" href="../assets/pt-pt-localization-qa-sample-diogo-neves.pdf" rel="noopener" target="_blank">Descarregar amostra de 1 página</a></div></div><aside class="case-meta paper-card qa-meta"><div class="demo-kicker">DEMONSTRAÇÃO / SEM CLIENTE REAL</div><dl><div><dt>Contexto</dt><dd>Onboarding SaaS fictício</dd></div><div><dt>Origem</dt><dd>Inglês</dd></div><div><dt>Destino</dt><dd>Português (Portugal)</dd></div><div><dt>Escopo</dt><dd>5 strings de UI</dd></div><div><dt>Entrega</dt><dd>Copy final + relatório QA</dd></div></dl></aside></section>
+<section class="page-section-tight reveal"><div class="proof-strip case-proof-strip"><article><span>01</span><strong>PT-PT</strong><p><b>Adequação regional</b><br/>Interferência de PT-BR, escolhas lexicais e construções pouco naturais.</p></article><article><span>02</span><strong>Accuracy</strong><p><b>Preservação de sentido</b><br/>Correção de segmentos que alteram ou reduzem o significado do texto de origem.</p></article><article><span>03</span><strong>UX</strong><p><b>Copy para produto</b><br/>Redação curta e funcional, pensada para interface e intenção de utilização.</p></article><article><span>04</span><strong>QA</strong><p><b>Classificação de erros</b><br/>Categoria, severidade, correção e justificação para cada problema.</p></article></div></section>
+<section class="page-section case-section reveal"><p class="section-number">01 / Brief</p><h2>Um teste pequeno, construído como um fluxo real de QA.</h2><p>O cenário simula uma aplicação SaaS internacional a preparar um fluxo de onboarding para Portugal. O objetivo não é mostrar uma tradução longa, mas tornar visível o julgamento linguístico: o que está errado, porque está errado e como corrigir sem perder a função do texto de interface.</p></section>
+<section class="page-section qa-comparison-section reveal"><div class="section-heading"><p class="section-number">02 / Antes e depois</p><h2>Cinco strings. Cinco decisões linguísticas verificáveis.</h2></div><div class="qa-table-wrap"><table class="qa-table"><thead><tr><th scope="col">ID</th><th scope="col">EN source</th><th scope="col">PT simulado</th><th scope="col">PT-PT final</th><th scope="col">QA</th></tr></thead><tbody><tr>
+<td><span class="qa-id">01</span></td>
+<td><p class="qa-source">Start your 14-day free trial. No credit card required.</p></td>
+<td><p>Comece seu teste grátis de 14 dias. Nenhum cartão de crédito requerido.</p></td>
+<td><p class="qa-final">Comece o seu período experimental gratuito de 14 dias. Não é necessário cartão de crédito.</p></td>
+<td><span class="qa-category">Locale + Fluency</span><span class="qa-severity qa-major">Major</span><p class="qa-rationale">A formulação mistura traços associados a PT-BR com transferência literal do inglês. A revisão usa construção idiomática e terminologia adequada a PT-PT.</p></td>
+</tr>
+<tr>
+<td><span class="qa-id">02</span></td>
+<td><p class="qa-source">Invite teammates and keep everyone on the same page.</p></td>
+<td><p>Convide seus companheiros de equipe e mantenha todos na mesma página.</p></td>
+<td><p class="qa-final">Convide a sua equipa e mantenha todos alinhados.</p></td>
+<td><span class="qa-category">Locale + Idiom</span><span class="qa-severity qa-major">Major</span><p class="qa-rationale">"companheiros de equipe" não é uma escolha natural para este contexto em PT-PT e "na mesma página" decalca uma expressão inglesa. A revisão localiza ambos.</p></td>
+</tr>
+<tr>
+<td><span class="qa-id">03</span></td>
+<td><p class="qa-source">Get more done, without the busywork.</p></td>
+<td><p>Faça mais, sem o trabalho ocupado.</p></td>
+<td><p class="qa-final">Faça mais, sem perder tempo com tarefas repetitivas.</p></td>
+<td><span class="qa-category">Accuracy</span><span class="qa-severity qa-major">Major</span><p class="qa-rationale">"trabalho ocupado" altera o significado de "busywork". A correção recupera a ideia de tarefas repetitivas de baixo valor sem copiar a estrutura inglesa.</p></td>
+</tr>
+<tr>
+<td><span class="qa-id">04</span></td>
+<td><p class="qa-source">Upgrade now to unlock unlimited projects.</p></td>
+<td><p>Atualize agora para desbloquear projetos ilimitados.</p></td>
+<td><p class="qa-final">Atualize o seu plano e crie quantos projetos quiser.</p></td>
+<td><span class="qa-category">UX Style</span><span class="qa-severity qa-minor">Minor</span><p class="qa-rationale">A versão inicial é compreensível, mas soa mecânica e torna o benefício menos claro. A revisão explicita a ação e o resultado para o utilizador.</p></td>
+</tr>
+<tr>
+<td><span class="qa-id">05</span></td>
+<td><p class="qa-source">€9.99/month, billed annually.</p></td>
+<td><p>€9.99/mês, cobrado anualmente.</p></td>
+<td><p class="qa-final">9,99 €/mês, faturado anualmente.</p></td>
+<td><span class="qa-category">Locale + Formatting</span><span class="qa-severity qa-minor">Minor</span><p class="qa-rationale">A apresentação do preço e a terminologia de faturação são adaptadas às convenções de PT-PT, incluindo separador decimal e posição do símbolo monetário.</p></td>
+</tr></tbody></table></div><p class="qa-demo-note">Esta é uma amostra demonstrativa criada por Diogo Neves. Não representa um cliente ou produto real. O output português inicial foi escrito deliberadamente com problemas para demonstrar decisões de QA.</p></section>
+<section class="page-section case-section reveal"><p class="section-number">03 / Método</p><h2>A revisão não termina quando o texto deixa de ter erros gramaticais.</h2><div class="method-grid qa-method-grid"><article><span>1</span><h3>Contextualizar</h3><p>Definir locale, público, produto, intenção e restrições de espaço.</p></article><article><span>2</span><h3>Avaliar</h3><p>Comparar origem e output, identificando precisão, fluência, terminologia e adequação regional.</p></article><article><span>3</span><h3>Localizar</h3><p>Reescrever para PT-PT natural, mantendo a função de cada string na interface.</p></article><article><span>4</span><h3>Verificar</h3><p>Fazer uma segunda passagem de consistência, pontuação, números, moeda e terminologia.</p></article></div></section>
+<section class="page-section split-case reveal qa-deliverable"><div><p class="section-number">04 / Entrega</p><h2>O cliente recebe texto limpo e uma explicação curta do que foi corrigido.</h2><p>Neste tipo de trabalho, entregaria uma versão final pronta para implementação e um relatório QA curto com os problemas relevantes. O relatório serve para tornar as decisões auditáveis e ajudar equipas de produto ou localização a identificar padrões de erro.</p></div><aside class="paper-card deliverable-card"><div class="evidence-kicker">PDF / 1 PAGE</div><strong>PT-PT Localization QA</strong><p>Before / after + 5-item QA report</p><a class="button button-secondary" href="../assets/pt-pt-localization-qa-sample-diogo-neves.pdf" rel="noopener" target="_blank">Descarregar amostra de 1 página</a></aside></section>
+<section class="page-section closing-panel reveal"><p class="eyebrow">PT-PT Localization QA</p><h2>O cliente recebe texto limpo e uma explicação curta do que foi corrigido.</h2><div class="hero-cta"><a class="button button-primary" href="contacto.html">Falar sobre localização PT-PT</a><a class="button button-secondary" href="projetos.html">Ver todos os projetos</a></div></section>
+</main>
+<footer class="site-footer"><div><p class="footer-kicker">Diogo Neves</p><p>Português europeu · Translation QA · AI language evaluation</p></div><nav aria-label="Links" class="footer-links"><a href="language-ai.html">Linguagem &amp; AI</a><a href="localization-sprint.html">Serviços</a><a href="projetos.html">Trabalho</a><a href="sobre.html">Sobre</a><a download="" href="../assets/diogo-neves-cv.pdf">CV</a><a href="mailto:diogonevestvd@gmail.com">Email</a></nav></footer>
+</body></html>

@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://diogoaaneves.me</loc></url>
-  <url><loc>https://diogoaaneves.me/projetos.html</loc></url>
-  <url><loc>https://diogoaaneves.me/morly.html</loc></url>
-  <url><loc>https://diogoaaneves.me/sul.html</loc></url>
-  <url><loc>https://diogoaaneves.me/medical-translations.html</loc></url>
-  <url><loc>https://diogoaaneves.me/bubble-b-portugal.html</loc></url>
-  <url><loc>https://diogoaaneves.me/sobre.html</loc></url>
-  <url><loc>https://diogoaaneves.me/notas.html</loc></url>
-  <url><loc>https://diogoaaneves.me/contacto.html</loc></url>
+  <url><loc>https://diogoaaneves.me/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/bubble-b-portugal.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/contacto.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/language-ai.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/localization-qa.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/localization-sprint.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/medical-translations.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/morly.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/nova-translation-mt-qa.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/projetos.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/sobre.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/sul.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/bubble-b-portugal.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/contacto.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/language-ai.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/localization-qa.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/localization-sprint.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/medical-translations.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/morly.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/nova-translation-mt-qa.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/projetos.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/sobre.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/sul.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/bubble-b-portugal.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/contacto.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/language-ai.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/localization-qa.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/localization-sprint.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/medical-translations.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/morly.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/nova-translation-mt-qa.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/projetos.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/sobre.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/pt/sul.html</loc><lastmod>2026-08-27</lastmod></url>
+
+  <url><loc>https://diogoaaneves.me/ai-translation-study.html</loc><lastmod>2026-08-27</lastmod><xhtml:link rel="alternate" hreflang="x-default" href="https://diogoaaneves.me/ai-translation-study.html"/><xhtml:link rel="alternate" hreflang="en" href="https://diogoaaneves.me/ai-translation-study.html"/><xhtml:link rel="alternate" hreflang="pt-PT" href="https://diogoaaneves.me/pt/ai-translation-study.html"/><xhtml:link rel="alternate" hreflang="es" href="https://diogoaaneves.me/es/ai-translation-study.html"/></url>
+  <url><loc>https://diogoaaneves.me/pt/ai-translation-study.html</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://diogoaaneves.me/es/ai-translation-study.html</loc><lastmod>2026-08-27</lastmod></url>
 </urlset>
